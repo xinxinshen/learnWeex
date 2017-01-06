@@ -1,0 +1,14 @@
+<template>
+    <div>
+        <text class="text" style="color: red;">Hello world！</text>
+    </div>
+</template>
+
+<style>
+    .text {
+        font-size: 50;
+    }
+</style>
+
+<script>
+</script>
