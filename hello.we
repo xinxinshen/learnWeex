@@ -1,14 +1,16 @@
 <template>
     <div>
-        <text class="text" style="color: red;">Hello world！</text>
+        <text>{{ word }}</text>
     </div>
 </template>
 
-<style>
-    .text {
-        font-size: 50;
-    }
-</style>
-
 <script>
+    module.exports = {
+        ready: function() {
+            this.word = 'Data changes' // UI won't be updated
+        },
+        data: {
+            word: 'Hello static'
+        }
+    }
 </script>
